@@ -1,4 +1,4 @@
-# McGraw Hill Games
+# Vite Boilerplate Monorepo
 
 ### Project Setup
 

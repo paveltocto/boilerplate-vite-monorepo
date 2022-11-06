@@ -15,7 +15,8 @@
     }
   },
   "scripts": {
-    "build-lib": "vite build"
+    "start": "vite build --watch",
+    "build": "vite build"
   },
   "devDependencies": {
     "vite-plugin-dts": "^1.6.6",

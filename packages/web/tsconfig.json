@@ -3,10 +3,10 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
-    "composite": true,
     "noEmit": true,
     "paths": {
-      "@vite-boilerplate/core": ["../core"]
+      "@/*": ["./src/*"],
+      "@vite-boilerplate/core": ["../core"],
     }
   },
   "include": [
@@ -18,5 +18,5 @@
   "references": [
     { "path": "./tsconfig.node.json"},
     { "path": "../core" }
-  ]
+  ],
 }
