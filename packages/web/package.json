@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vite-boilerplate/core": "0.1.0",
     "vue": "^3.2.41"
   },
   "devDependencies": {
-    "@vite-boilerplate/core": "0.1.0",
     "@vitejs/plugin-vue": "^3.2.0",
     "typescript": "^4.6.4",
     "vite": "^3.2.0",
