@@ -6,7 +6,7 @@
     "noEmit": true,
     "paths": {
       "@/*": ["./src/*"],
-      "@vite-boilerplate/core": ["../core"],
+      "@vite-boilerplate/core": ["../../packages/core"]
     }
   },
   "include": [
@@ -17,6 +17,6 @@
   ],
   "references": [
     { "path": "./tsconfig.node.json"},
-    { "path": "../core" }
-  ],
+    { "path": "../../packages/core"}
+  ]
 }
