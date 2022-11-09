@@ -8,7 +8,7 @@
     "build": "npx lerna run build --stream",
     "bootstrap": "npx lerna bootstrap",
     "lint": "stylelint \"**/*.scss\"",
-    "format": "prettier --write '**/*.{js,jsx,json,tsx,ts,vue,scss,md}'"
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@types/node": "^18.8.3",
