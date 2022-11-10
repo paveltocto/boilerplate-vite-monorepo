@@ -1,0 +1,3 @@
+.yarn
+packages/**/dist
+apps/**/dist
